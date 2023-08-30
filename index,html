@@ -3,43 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Homepage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-    </style>
+    <title>Mijn Pagina</title>
+    <!-- Externe CSS-koppelingen of stijlinformatie kunnen hier worden toegevoegd -->
 </head>
 <body>
+    <!-- HEADER -->
     <header>
-        <h1>Mijn Geweldige Homepage</h1>
+        <nav>
+            <!-- Navigatiemenu of logo kan hier worden geplaatst -->
+        </nav>
     </header>
-    <div class="container">
-        <h2>Welkom op mijn homepage!</h2>
-        <p>Dit is een voorbeeld van een eenvoudige HTML-pagina.</p>
-        <p>Voel je vrij om de inhoud van deze pagina aan te passen en te bewerken volgens jouw wensen.</p>
-    </div>
+    
+    <!-- HOOFDINHOUD -->
+    <main>
+        <!-- Sectie 1: Introductie -->
+        <section id="introductie">
+            <h1>Welkom op Mijn Pagina</h1>
+            <p>Dit is een geweldige plek om te zijn!</p>
+        </section>
+        
+        <!-- Sectie 2: Over Ons -->
+        <section id="over-ons">
+            <h2>Over Ons</h2>
+            <p>Leer meer over wie we zijn en wat we doen.</p>
+        </section>
+        
+        <!-- Sectie 3: Onze Diensten -->
+        <section id="onze-diensten">
+            <h2>Onze Diensten</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+        
+        <!-- Sectie 4: Contact -->
+        <section id="contact">
+            <h2>Contacteer Ons</h2>
+            <p>Neem contact met ons op voor vragen en opmerkingen.</p>
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2023 Mijn Pagina. Alle rechten voorbehouden.</p>
+    </footer>
 </body>
 </html>
-
