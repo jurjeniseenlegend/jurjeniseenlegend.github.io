@@ -18,7 +18,7 @@
     <main>
         <!-- Sectie 1: Introductie -->
         <section id="introductie">
-            <h1>Welkom op Mijn Pagina</h1>
+            <h1>Welkom op Mijn Pagina!</h1>
             <p>Dit is een geweldige plek om te zijn!</p>
         </section>
         
