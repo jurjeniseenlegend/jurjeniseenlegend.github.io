@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Website</title>
+    <style>
+        /* Stijl voor de kopjes */
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Stijl voor de inhoud van de pagina */
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+       <div class="header">
+
+        <h1>Hoe detonate ik zo'n c4?</h1>
+        <nav>
+            <a href="Kleurmodellen.html">Kleurmodellen</a>
+            <a href="Home.html">Home</a>
+            <a href="Binairstelsel.html">Binairstelsel</a>
+            <a href="Over mij.html">Over mij</a>
+        </nav>
+    </div>
+
+    <div class="content" id="kopje1">
+        <h2>Kopje 1</h2>
+        <p>Inhoud van Kopje 1.</p>
+    </div>
+
+    <div class="content" id="kopje2">
+        <h2>Kopje 2</h2>
+        <p>Inhoud van Kopje 2.</p>
+    </div>
+
+    <div class="content" id="kopje3">
+        <h2>Kopje 3</h2>
+        <p>Inhoud van Kopje 3.</p>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Pagina</title>
+    <!-- Externe CSS-koppelingen of stijlinformatie kunnen hier worden toegevoegd -->
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <!-- Navigatiemenu of logo kan hier worden geplaatst -->
+        </nav>
+    </header>
+    
+    <!-- HOOFDINHOUD -->
+    <main>
+        <!-- Sectie 1: Introductie -->
+        <section id="introductie">
+            <h1>Royalistiq webstore</h1>
+            <p>Koop hier je merch van royalistiq!</p>
+        </section>
+        
+        <!-- Sectie 2: Over Ons -->
+        <section id="over-ons">
+            <h2>Over Ons</h2>
+            <p>Leer meer over wie we zijn en wat we doen.</p>
+        </section>
+        
+        <!-- Sectie 3: Onze Diensten -->
+        <section id="onze-diensten">
+            <h2>Onze Diensten</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+        
+        <!-- Sectie 4: Contact -->
+        <section id="contact">
+            <h2>Contacteer Ons</h2>
+            <p>Neem contact met ons op voor vragen en opmerkingen.</p>
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2023 Mijn Pagina. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbladen</title>
+    <style>
+        body {
+            background-color: black
+           ;
+            text-align: center;
+           color: green;
+            font-family: Times New Roman,verdana,sans-serif;
+        }
+        
+        .tabs {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .tab {
+            padding: 10px 20px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .content {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tab" onclick="showTab(1)">Tabblad 1</div>
+        <div class="tab" onclick="showTab(2)">Tabblad 2</div>
+        <div class="tab" onclick="showTab(3)">Tabblad 3</div>
+    </div>
+    
+    <div class="content" id="tab1">
+        Inhoud van tabblad 1.
+    </div>
+    
+    <div class="content" id="tab2">
+        Inhoud van tabblad 2.
+    </div>
+    
+    <div class="content" id="tab3">
+        Inhoud van tabblad 3.
+    </div>
+
+    <script>
+        function showTab(tabNumber) {
+            // Verberg alle tabbladen
+            for (let i = 1; i <= 3; i++) {
+                document.getElementById('tab' + i).style.display = 'none';
+            }
+            // Toon het geselecteerde tabblad
+            document.getElementById('tab' + tabNumber).style.display = 'block';
+        }
+
+        // Standaard tabblad weergeven bij het laden van de pagina
+        showTab(1);
+    </script>
+</body>
+</html>
